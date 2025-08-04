@@ -158,13 +158,17 @@ Now as we visualise the solution within problem-space, note that the longest com
 
 ### visualising problem-space *"polarity"*: positive-space, and negative-space
 
-The above image depicts the distribution of solution-space within problem-space
+The *(above and)* below image depicts the distribution of solution-space within problem-space.
 
-We will sometimes refer to the soltion within *"problem-space"* in the absolute term *"solution-space"*
+We will sometimes refer to the solution within *"problem-space"* in the absolute term: *"solution-space"*.
 
 Other times, it will be useful to refer to both *"solution-space"*, and *"problem-space which is not solution-space"*
 
-For convenience, we will refer to former as *"positive-space" (or, solution-positive space)*; and the latter as *"negative-space" (or solution-negative space)*
+For convenience, we'll refer to:-
+
+- the former as *"positive-space" (or, solution-positive space)*, and;
+
+- the latter as *"negative-space" (or solution-negative space)*
 
 ![](images/example-1-solution.png)
 > Fig x: depicts the positive-space by orange dots/squares; with negative-space uncolored
