@@ -196,7 +196,7 @@ Now that we can visualise *"positive-space"* within two-dimensions *(of problem-
 
 ---
 
-### visualising hallucination as an unchecked projection of (positive) possibility-space between input-strings
+### visualising hallucination: as the unchecked projection of (positive) possibility-space, between input-strings
 
 #tbc 
 
