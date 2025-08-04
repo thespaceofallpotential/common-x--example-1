@@ -11,9 +11,11 @@ The solution to some *"problem-space problems"* are formuable in terms of the *(
 
 > we'll sometimes refer to these as *(set-theoretic) "intersection problems"*, in that the solution subset corresponds with the intersect between two problem sets
 
-In plain terms: the intersection between two reference-frames contains whatever is common between them -- and in this way, *"intersection problems"* $\to$ are "*common-x problems*"
+In plain terms: the intersection between two reference-frames contains whatever is common between them
 
-> and more simply still, all problem-solving is analogous to *"finding things, in spaces"*
+> *in this way, "intersection problems" are "common-x problems"*
+
+> *generally, all problem-solving equates to "finding things, in spaces"*
 
 ---
 
