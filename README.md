@@ -177,12 +177,12 @@ For convenience, we'll refer to:-
 
 ### visualising the relationship between lower-dimensional input-strings and higher-dimensional problem-space
 
-Now that we can visualise *"positive-space"* within two-dimensions *(of problem-space)*, let's also take a look at the inter-dimensional correspondence between positive-space, and the positive elements within our two one-dimensional input-strings.
+Now that we can visualise *"positive-space"* within two-dimensions *(of problem-space)*, let's also take a look at the inter-dimensional correspondence/alignment between *"two-dimensional positive-space"*, and the positive elements within our two *"one-dimensional input-strings"*.
 
-> *(so the correspondence between lower and higher dimensional space)*
+> *(so the correspondence/alignment, between lower and higher dimensional space)*
 
 ![](images/example-1-solution-frame.png)
-> Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product
+> Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product; with A2 on top; and B2 down the left
 
 #### $A2$ (top)
 
@@ -193,8 +193,6 @@ Now that we can visualise *"positive-space"* within two-dimensions *(of problem-
 
 ![](images/example-1-b.png)
 > Fig x : depicts the elements of input-string $B2$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
-
-- and both adjacent to, *(and aligned with)*, our higher-dimensional problem-space
 
 ---
 
