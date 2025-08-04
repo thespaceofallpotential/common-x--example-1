@@ -148,9 +148,9 @@ For two input-strings $a,b$ of lengths $n,m$, set to axes $x,y$, *respectively*;
 ![](images/example-1-solution.png)
 > Fig x: depicts the solution to the common-substring problem for input-strings $A2$ and $B2$ within a $28 * 33$ grid; with common-words marked by orange dots/squares; and common-substrings *(of words)* represented by diagonal-lines
 
-Earlier, we noted that the longest common substring is 3 words long
+Earlier, we noted that the longest common-substring is 3 words long
 
-Now as we visualise the solution within problem-space, note that the longest-common-substring appears twice in $A2$, yet only once in $B2$
+Now as we visualise the solution within problem-space, note that the longest common-substring appears twice in $A2$, yet only once in $B2$
 
 > *(so therefore twice along the $x$ axis, but only once on the $y$ axis — a circumstance represented by the fact that the two respective diagonal-lines of length 3, occupy the same vertical space)*
 
