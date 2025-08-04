@@ -177,7 +177,9 @@ For convenience, we'll refer to:-
 
 ### visualising the relationship between lower-dimensional input-strings and higher-dimensional problem-space
 
-Now that we can visualise *"positive-space"* within two-dimensions *(of problem-space)*, let's also take a look at the inter-dimensional correspondence of positive-space *(so between lower and higher dimensions)*
+Now that we can visualise *"positive-space"* within two-dimensions *(of problem-space)*, let's also take a look at the inter-dimensional correspondence between positive-space, and the positive elements within our two one-dimensional input-strings.
+
+> *(so the correspondence between lower and higher dimensional space)*
 
 ![](images/example-1-solution-frame.png)
 > Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product
