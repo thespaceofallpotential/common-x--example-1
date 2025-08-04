@@ -119,13 +119,13 @@ $$cws = \lbrace "longest{ }common{ }substring", "longest{ }common", "longest", "
 #### $A2$
 > *[A2 (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
 
-![](images/example-1-a-empty.png)
+![](images/example-1--a-empty.png)
 > Fig x: represents the input string $A2$ of length $28$
 
 #### $B2$
 > *[B2 (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
 
-![](images/example-1-b-empty.png)
+![](images/example-1--b-empty.png)
 > Fig x: represents the input string $B2$ of length $33$
 
 ---
@@ -136,7 +136,7 @@ For two input-strings $a,b$ of lengths $n,m$, set to axes $x,y$, *respectively*;
 
 > or $O(n \times m)$
 
-![](images/example-1-empty.png)
+![](images/example-1--empty.png)
 > Fig x: depicts a $28 * 33$ grid, which represents the higher-dimensional projection of $A2 \times B2$ , or problem-space, within which the solution is to be found
 
 > $$n \times m = |A2| * |B2| =  28 \times 33 = 924$$
@@ -145,7 +145,7 @@ For two input-strings $a,b$ of lengths $n,m$, set to axes $x,y$, *respectively*;
 
 ### visualising the solution within problem-space
 
-![](images/example-1-solution.png)
+![](images/example-1--solution.png)
 > Fig x: depicts the solution to the common-substring problem for input-strings $A2$ and $B2$ within a $28 * 33$ grid; with common-words marked by orange dots/squares; and common-substrings *(of words)* represented by diagonal-lines
 
 Earlier, we noted that the longest common-substring is 3 words long.
@@ -170,7 +170,7 @@ For convenience, we'll refer to:-
 
 - the latter as *"negative-space" (or solution-negative space)*
 
-![](images/example-1-solution.png)
+![](images/example-1--solution.png)
 > Fig x: depicts the positive-space by orange dots/squares; with negative-space uncolored
 
 ---
@@ -181,17 +181,17 @@ Now that we can visualise *"positive-space"* within two-dimensions *(of problem-
 
 > *(so the correspondence/alignment, between lower and higher dimensional space)*
 
-![](images/example-1-solution-frame.png)
+![](images/example-1--solution-frame.png)
 > Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product; with A2 on top; and B2 down the left
 
 #### $A2$ (top)
 
-![](images/example-1-a.png)
+![](images/example-1--a.png)
 > Fig x : depicts the elements of input-string $A2$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
 
 #### $B2$ (left)
 
-![](images/example-1-b.png)
+![](images/example-1--b.png)
 > Fig x : depicts the elements of input-string $B2$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
 
 ---
@@ -200,9 +200,12 @@ Now that we can visualise *"positive-space"* within two-dimensions *(of problem-
 
 #tbc 
 
-![](images/example-1-projection-frame.png)
+![](images/example-1--projection-frame.png)
 > Fig x : depicts positive possibility-space as an unchecked projection between the positive elements of two lower-dimensional input-strings
 
+
+![](images/example-1--hallucination.png)
+> Fig x : depicts positive possibility-space as an unchecked projection between the positive elements of two lower-dimensional input-strings
 
 ---
 
