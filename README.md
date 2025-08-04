@@ -146,7 +146,7 @@ For two input-strings $a,b$ of lengths $n,m$, set to axes $x,y$, *respectively*;
 ### visualising the solution within problem-space
 
 ![](images/example-1-solution.png)
-> Fig x: depicts the solution to the common-substring problem for input-strings $A2$ and $B2$ within a $28 * 33$ grid; with common-words marked by orange dots/squares; and common-substrings *(of words)* represented by diagonal-lines of the same
+> Fig x: depicts the solution to the common-substring problem for input-strings $A2$ and $B2$ within a $28 * 33$ grid; with common-words marked by orange dots/squares; and common-substrings *(of words)* represented by diagonal-lines
 
 Earlier, we noted that the longest common substring is 3 words long
 
