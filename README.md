@@ -194,14 +194,12 @@ Now that we can visualise *"positive-space"* within two-dimensions *(of problem-
 
 ### visualising hallucination as an unchecked projection of (positive) possibility-space between input-strings
 
-To be explained...
+#tbc 
 
 ![](images/example-1-projection-frame.png)
 > Fig x : depicts positive possibility-space as an unchecked projection between the positive elements of two lower-dimensional input-strings
 
 
-
----
 ---
 
 [^lso]: (paraphrased) https://en.wikipedia.org/wiki/Local_search_(optimization)
