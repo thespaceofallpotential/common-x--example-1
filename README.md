@@ -184,12 +184,12 @@ Now that we can visualise *"positive-space"* within two-dimensions *(of problem-
 ![](images/example-1-solution-frame.png)
 > Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product
 
-- $A2$ on the top;
+#### $A2$ (top)
 
 ![](images/example-1-a.png)
 > Fig x : depicts the elements of input-string $A2$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
 
-- $B2$ down the left
+#### $B2$ (left)
 
 ![](images/example-1-b.png)
 > Fig x : depicts the elements of input-string $B2$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
