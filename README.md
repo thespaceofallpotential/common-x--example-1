@@ -173,13 +173,15 @@ For convenience, we'll refer to:-
 ![](images/example-1--solution.png)
 > Fig x: depicts the positive-space by orange dots/squares; with negative-space uncolored
 
+This distinction between positive and negative space will form the basis of several generalised methods for *"finding things, in spaces"*.
+
 ---
 
-### visualising the relationship between lower-dimensional input-strings and higher-dimensional problem-space
+### visualising the relationship between lower-dimensional input-strings, and higher-dimensional problem-space
 
-Now that we can visualise *"positive-space"* within two-dimensions *(of problem-space)*, let's also take a look at the inter-dimensional correspondence/alignment between *"two-dimensional positive-space"*, and the positive elements within our two *"one-dimensional input-strings"*.
+All common-form must exist in both lower-dimensional spaces
 
-> *(so the correspondence/alignment, between lower and higher dimensional space)*
+Now that we can visualise *"positive-space"* within the two-dimensions of *"problem-space"*, let's also take a look at inter-dimensional correspondence/ alignment, between higher andd lower dimensional space
 
 ![](images/example-1--solution-frame.png)
 > Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product; with A2 on top; and B2 down the left
@@ -194,19 +196,33 @@ Now that we can visualise *"positive-space"* within two-dimensions *(of problem-
 ![](images/example-1--b.png)
 > Fig x : depicts the elements of input-string $B2$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
 
+Higher-dimensional spaces are inherently arbitrarily-plural lower-dimensional spaces, and the relationship between dimensions *(/reference-frames)* will form the basis for several generalised methods for *"finding things, in spaces"*.
+
 ---
 
-### visualising hallucination: as the unchecked projection of (positive) possibility-space, between input-strings
-
-#tbc 
+### visualising positive possibility-space
+> *as the unchecked/unbound projection of lower-dimensional positive-space, between input-strings*
 
 ![](images/example-1--projection-frame.png)
-> Fig x : depicts positive possibility-space as an unchecked projection between the positive elements of two lower-dimensional input-strings
+> Fig x : depicts positive possibility-space as an unchecked projection between the positive elements of two lower-dimensional input-strings, coloured purple
 
-
-![](images/example-1--hallucination.png)
-> Fig x : depicts positive possibility-space as an unchecked projection between the positive elements of two lower-dimensional input-strings
+Over the course of defining several generalised methods for *"finding things, in spaces"* -- based upon the identification and isolation of polarity *(/quality)* between dimensions *(/reference-frames)*, introduced above -- a curious phenomenon of unchecked/unbound possibility-space emerged, which at scale visually resembles wave interference patterns, which define approximate outerbounds of all positive-space
 
 ---
+
+### visualising hallucination-space
+> *as the resultant invalid checked/bound projection of lower-dimensional positive-space, between input-strings*
+
+![](images/example-1--hallucination.png)
+> Fig x : depicts resultant invalid positive possibility-space, as after projection between the positive elements of two lower-dimensional input-strings is cross-verified, with solution in orange, and hallucination-space in purple
+
+We are all now familiar with the notion of LLM hallucination: which we might define as structure which is technically valid, although does not correspond with extrinsic constraints *(of reality, in the case of LLMs)* 
+
+Here within common-x: notice that, from the reference-frame of either input-string, all projection-space is technically valid, and only by cross-correlation with some extrinsic frame of reference, the other input-string in this case, can contextual validity be defined; at which point, all positive projection-space which is left unrealised, is directly analogous to LLM hallucination
+
+---
+
+#
+
 
 [^lso]: (paraphrased) https://en.wikipedia.org/wiki/Local_search_(optimization)
