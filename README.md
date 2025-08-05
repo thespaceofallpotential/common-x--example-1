@@ -1,6 +1,8 @@
 # common-x: Example 1
 > *common-x {x: substrings}*
 
+> note: github latex rendering seems broken on mobile/ ios?
+
 ## background
 
 Most problems can be formulated in terms of an abstract *"problem-space"*, within which the problem's respective solution might/must be found [^lso].
