@@ -13,8 +13,6 @@ The solution to some *"problem-space problems"* are formuable in terms of the *(
 
 In plain terms: the intersection between two reference-frames contains whatever is common between them, so in this way, *"intersection problems"* are *"common-x problems"*
 
-> *(and generally, all problem-solving equates to "finding things, in spaces")*
-
 The interesting thing about *"intersection/ common-x problems"*, is that, where the solution for a *"subset problem"* must be defined *(explicitly or implicitly)* in advance or externally, for *"intersection/ common-x problems"*, the solution is undefined until found.
 
 Often the discussion of the evolution of cogntion is waylaid by a dependency on pre-determined solutions, which cognition must then solve -- but a far simpler, far more humble origin to our own cognitive circumstances, is that attention *(to the defintion and subsequent exploration of solutions)* must result naturally in some way, which, *(i think uncontrovertially and inescapably)*, aligns with the structural and operational mechanics of *"intersection/ common-x problems"* to be described in a series of related repositories
