@@ -15,6 +15,12 @@ In plain terms: the intersection between two reference-frames contains whatever 
 
 > *(and generally, all problem-solving equates to "finding things, in spaces")*
 
+The interesting thing about *"intersection/ common-x problems"*, is that, where the solution for a *"subset problem"* must be defined *(explicitly or implicitly)* in advance or externally, for *"intersection/ common-x problems"*, the solution is undefined until found.
+
+Often the discussion of the evolution of cogntion is waylaid by a dependency on pre-determined solutions, which cognition must then solve -- but a far simpler, far more humble origin to our own cognitive circumstances, *(the echoes of which persist as analogical cognitive mechanics)*, is that attention *(to the defintion and subsequent exploration of solutions)* must result naturally in some way.
+
+In a way which, i think uncontrovertially and inescapably, aligns with the structural and operational mechanics of *"intersection/ common-x problems"*.
+
 ---
 
 ## common-x: substring source
