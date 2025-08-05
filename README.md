@@ -21,6 +21,8 @@ Often the discussion of the evolution of cogntion is waylaid by a dependency on 
 
 In a way which, i think uncontrovertially and inescapably, aligns with the structural and operational mechanics of *"intersection/ common-x problems"*.
 
+This repository will contain the details of one example -- *(example 1)* -- of *"intersection/ common-x problems"*; and will be referenced by other more detailed analyticcal and synthetic project repositories.
+
 ---
 
 ## common-x: substring source
