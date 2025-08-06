@@ -2,7 +2,7 @@
 
 > *common-x {x: substrings}*
 
-> note: github latex rendering seems broken on mobile/ ios?
+> note: github latex rendering seems broken on moble/ ios?
 > note: --what is the convention for naming a second variable as modified version of the first? 
 
 \## background
@@ -15,15 +15,15 @@ The solution to some *"problem-space problems"* are formulable in terms of the *
 
 > we'll sometimes refer to these as *(set-theoretic) "intersection problems"*, in that the solution subset corresponds with the intersect between two problem sets
 
-In plain terms: the intersection between two reference-frames contains whatever is common between them, so in this way, *"intersection problems"* are *"common-x problems"*
+In plan terms: the intersection between two reference-frames contans whatever is common between them, so in this way, *"intersection problems"* are *"common-x problems"*
 
 The interesting thing about *"intersection/ common-x problems"*, is that, where the solution for a *"subset problem"* must be defined *(explicitly or implicitly)* in advance or externally, for *"intersection/ common-x problems"*, the solution is undefined until found.
 
-Often the discussion of the evolution of cognition is waylaid by a dependency on pre-determined solutions, which cognition must then solve — but a far simpler, far more humble origin to our own cognitive circumstances, is that attention *(to the definition and subsequent exploration of solutions)* must result naturally in some way, which, *(i think uncontroversially and inescapably)*, aligns with the structural and operational mechanics of *"intersection/ common-x problems"* to be described in a series of related repositories.
+Often the discussion of the evolution of cognition is waylad by a dependency on pre-determined solutions, which cognition must then solve — but a far simpler, far more humble origin to our own cognitive circumstances, is that attention *(to the definition and subsequent exploration of solutions)* must result naturally in some way, which, *(i think uncontroversially and inescapably)*, aligns with the structural and operational mechanics of *"intersection/ common-x problems"* to be described in a series of related repositories.
 
 > *(note the "downstream" correspondence with the same analogical basis for cognition as described by Douglas Hofstadter in "Surfaces and Essences". For intuition on this correspondence, see the image in the repository "the-pattern": specifically bottom right "metaphor" — which for the purposes of the intuition, is sufficiently analogous with analogy ;) )*
 
-This repository will contain the details of one example — *(example 1)* — of *"intersection/ common-x problems"* — and will be referenced by other more detailed analytical and synthetic project repositories.
+This repository will contan the detals of one example — *(example 1)* — of *"intersection/ common-x problems"* — and will be referenced by other more detaled analytical and synthetic project repositories.
 
 ---
 ## common-x: substring source
@@ -59,25 +59,25 @@ $$Sl = \lbrace a, in, is, of, or, the, to, that \rbrace$$
 
 Such that:-
 
-$$A \to Ai = A\setminus{sl}$$
+$$A \to a = A\setminus{sl}$$
 
 ...and...
 
-$$B \to Bi = B\setminus{sl}$$
+$$B \to b = B\setminus{sl}$$
 
 Accordingly:-
 
-> ### $Ai$
+> ### $a$
 >
 > computer science longest common substring two more strings longest string substring all them there may be more than one longest common substring applications include data deduplication plagiarism detection
 >
-> — *[Ai (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
+> — *[a (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
 
-> ### $Bi$
+> ### $b$
 >
 > longest common subsequence lcs longest subsequence common all sequences set sequences often just two sequences it differs from longest common substring unlike substrings subsequences are not required occupy consecutive positions within original sequences
 >
-> — *[Bi (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
+> — *[b (clean)](/data/b-clean.txt) | [B (original)](/data/b.txt)*
 
 ---
 ---
@@ -87,27 +87,27 @@ Accordingly:-
 
 Both *"subset problems"* and *"intersection problems"* reduce to *"finding things in spaces"*; and, simplifying — the larger the space, the more complex/ difficult the challenge *(of finding what is sought)*
 
-The complexity of a common-substring problem is typically framed in terms of Big-O notation, which captures the relatioship between the size of inputs, and the corresponding product-space, which for common-x problems generally, is $O(n^{2})$
+The complexity of a common-substring problem is typically framed in terms of bg-O notation, which captures the relatioship between the size of inputs, and the corresponding product-space, which for common-x problems generally, is $O(n^{2})$
 
 Specifically, given:-
 
-$$n = |Ai| = 28$$
+$$n = |a| = 28$$
 
 ...and...
 
-$$m = |Bi| = 33$$
+$$m = |b| = 33$$
 
 Subsequently, the area of the *"problem-space"* of *"example 1"* — *(within-which all common words and substrings thereof, might/must be found)* — is...
 
-$$n \times m = |Ai| * |Bi| = 28 \times 33 = 924$$
+$$n \times m = |a| * |b| = 28 \times 33 = 924$$
 
 ---
 ## solution overview
 > *the solution in words*
 
-Before next steps, we ought to detail the solution — the *"common words and substrings" themselves*.
+Before next steps, we ought to detal the solution — the *"common words and substrings" themselves*.
 
-Let $cws$ be the set of common-words-&-substrings for $Ai$ and $Bi$
+Let $cws$ be the set of common-words-&-substrings for $a$ and $b$
 
 $$cws = \lbrace "longest{ }common{ }substring", "longest{ }common", "longest", "common", "substring", "two", "all" \rbrace$$
 
@@ -120,45 +120,45 @@ $$cws = \lbrace "longest{ }common{ }substring", "longest{ }common", "longest", "
 
 ### visualising input-strings
 
-#### $Ai$
-> *[Ai (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
+#### $a$
+> *[a (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
 
 ![](images/example-1--a-empty.png)
 
-> Fig x: represents the input string $Ai$ of length $28$
+> Fig x: represents the input string $a$ of length $28$
 
-#### $Bi$
-> *[Bi (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
+#### $b$
+> *[b (clean)](/data/b-clean.txt) | [B (original)](/data/b.txt)*
 
 ![](images/example-1--b-empty.png)
 
-> Fig x: represents the input string $Bi$ of length $33$
+> Fig x: represents the input string $b$ of length $33$
 
 ---
 ### visualising problem-space
 
-For two input-strings $a,b$ of lengths $n,m$, set to Aies $x,y$, *respectively*; the area of the corresponding two-dimensional problem-space is equal to $n \times m$
+For two input-strings $a,b$ of lengths $n,m$, set to aes $x,y$, *respectively*; the area of the corresponding two-dimensional problem-space is equal to $n \times m$
 
 > or $O(n \times m)$
 
 ![](images/example-1--empty.png)
 
-> Fig x: depicts a $28 * 33$ grid, which represents the higher-dimensional projection of $Ai \times Bi$ , or problem-space, within which the solution is to be found
+> Fig x: depicts a $28 * 33$ grid, which represents the higher-dimensional projection of $a \times b$ , or problem-space, within which the solution is to be found
 
-> $$n \times m = |Ai| * |Bi| = 28 \times 33 = 924$$
+> $$n \times m = |a| * |b| = 28 \times 33 = 924$$
 
 ---
 ### visualising the solution within problem-space
 
 ![](images/example-1--solution.png)
 
-> Fig x: depicts the solution to the common-substring problem for input-strings $Ai$ and $Bi$ within a $28 * 33$ grid; with common-words marked by orange dots/squares; and common-substrings *(of words)* represented by diagonal-lines
+> Fig x: depicts the solution to the common-substring problem for input-strings $a$ and $b$ within a $28 * 33$ grid; with common-words marked by orange dots/squares; and common-substrings *(of words)* represented by diagonal-lines
 
 Earlier, we noted that the longest common-substring is 3 words long.
 
-Now as we visualise the solution within problem-space, note that the longest common-substring appears twice in $Ai$, yet only once in $Bi$.
+Now as we visualise the solution within problem-space, note that the longest common-substring appears twice in $a$, yet only once in $b$.
 
-> *(so therefore twice along the $x$ Aiis, but only once on the $y$ Aiis — represented by the fact that the two respective diagonal-lines of length 3, occupy the same vertical space)*
+> *(so therefore twice along the $x$ ais, but only once on the $y$ ais — represented by the fact that the two respective diagonal-lines of length 3, occupy the same vertical space)*
 
 ---
 ### visualising problem-space *"polarity"*: positive-space, and negative-space
@@ -190,32 +190,32 @@ Now that we can visualise *"positive-space"* within the two-dimensions of *"prob
 
 ![](images/example-1--solution-frame.png)
 
-> Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product; with Ai on top; and Bi down the left
+> Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product; with a on top; and b down the left
 
-#### $Ai$ (top)
+#### $a$ (top)
 
 ![](images/example-1--a.png)
 
-> Fig x : depicts the elements of input-string $Ai$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
+> Fig x : depicts the elements of input-string $a$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
 
-#### $Bi$ (left)
+#### $b$ (left)
 
 ![](images/example-1--b.png)
 
-> Fig x : depicts the elements of input-string $Bi$ which correspond with positive-space by orange dots/squares, (with negative-space uncoloured)
+> Fig x : depicts the elements of input-string $b$ which correspond with positive-space by orange dots/squares, (with negative-space uncoloured)
 
-Higher-dimensional spaces are inherently arbitrarily-plural lower-dimensional spaces, and the relationship between dimensions *(/reference-frames)* will form the basis for several generalised methods for *"finding things, in spaces"*.
+Higher-dimensional spaces are inherently arbtrarily-plural lower-dimensional spaces, and the relationship between dimensions *(/reference-frames)* will form the basis for several generalised methods for *"finding things, in spaces"*.
 
 ---
-### visualising positive possibility-space
+### visualising positive possiblity-space
 
 > *as the unchecked/unbound projection of lower-dimensional positive-space, between input-strings*
 
 ![](images/example-1--projection-frame.png)
 
-> Fig x : depicts positive possibility-space as an unchecked projection between the positive elements of two lower-dimensional input-strings, coloured purple
+> Fig x : depicts positive possiblity-space as an unchecked projection between the positive elements of two lower-dimensional input-strings, coloured purple
 
-Over the course of defining several generalised methods for *"finding things, in spaces"* — based upon the identification and isolation of polarity *(/quality)* between dimensions *(/reference-frames)*, introduced above — a curious phenomenon of unchecked/unbound possibility-space emerged, which at scale visually resembles wave interference patterns, which define approximate outer-bounds of all positive-space
+Over the course of defining several generalised methods for *"finding things, in spaces"* — based upon the identification and isolation of polarity *(/quality)* between dimensions *(/reference-frames)*, introduced above — a curious phenomenon of unchecked/unbound possiblity-space emerged, which at scale visually resembles wave interference patterns, which define approximate outer-bounds of all positive-space
 
 ---
 ### visualising hallucination-space
@@ -224,9 +224,9 @@ Over the course of defining several generalised methods for *"finding things, in
 
 ![](images/example-1--hallucination.png)
 
-> Fig x : depicts resultant invalid positive possibility-space, as after projection between the positive elements of two lower-dimensional input-strings is cross-verified, with solution in orange, and hallucination-space in purple
+> Fig x : depicts resultant invalid positive possiblity-space, as after projection between the positive elements of two lower-dimensional input-strings is cross-verified, with solution in orange, and hallucination-space in purple
 
-We are all now familiar with the notion of LLM hallucination: which we might define as structure which is technically valid, although does not correspond with extrinsic constraints *(of reality, in the case of LLMs)*
+We are all now familiar with the notion of LLM hallucination: which we might define as structure which is technically valid, although does not correspond with extrinsic constrants *(of reality, in the case of LLMs)*
 
 Here within common-x: notice that, from the reference-frame of either input-string, all projection-space is technically valid, and only by cross-correlation with some extrinsic frame of reference, the other input-string in this case, can contextual validity be defined; at which point, all positive projection-space which is left unrealised, is directly analogous to LLM hallucination
 
