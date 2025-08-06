@@ -20,7 +20,7 @@ The interesting thing about *"intersection/ common-x problems"*, is that, where 
 
 Often the discussion of the evolution of cognition is waylaid by a dependency on pre-determined solutions, which cognition must then solve — but a far simpler, far more humble origin to our own cognitive circumstances, is that attention *(to the definition and subsequent exploration of solutions)* must result naturally in some way, which, *(i think uncontroversially and inescapably)*, aligns with the structural and operational mechanics of *"intersection/ common-x problems"* to be described in a series of related repositories.
 
-> *(note the "downstream" correspondence with the same analogical basis for cognition as described by Douglas Hofstadter in "Surfaces and Essences". For intuition on this correspondence, see the image in the repository "the-pattern": specifically bottom right "metaphor", which for the purposes of the intuition, si sufficiently analogous with analogy ;) )*
+> *(note the "downstream" correspondence with the same analogical basis for cognition as described by Douglas Hofstadter in "Surfaces and Essences". For intuition on this correspondence, see the image in the repository "the-pattern": specifically bottom right "metaphor" — which for the purposes of the intuition, is sufficiently analogous with analogy ;) )*
 
 This repository will contain the details of one example — *(example 1)* — of *"intersection/ common-x problems"* — and will be referenced by other more detailed analytical and synthetic project repositories.
 
