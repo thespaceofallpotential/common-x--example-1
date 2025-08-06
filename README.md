@@ -3,8 +3,9 @@
 > *common-x {x: substrings}*
 
 > note: github latex rendering seems broken on mobile/ ios?
+> note: --what is the convention for naming a second variable as modified version of the first? 
 
-## background
+\## background
 
 Most problems can be formulated in terms of an abstract *"problem-space"*, within which the problem's respective solution might/must be found [^lso].
 
@@ -58,25 +59,25 @@ $$Sl = \lbrace a, in, is, of, or, the, to, that \rbrace$$
 
 Such that:-
 
-$$A \to A_{2} = A\setminus{sl}$$
+$$A \to Ax = A\setminus{sl}$$
 
 ...and...
 
-$$B \to B_{2} = B\setminus{sl}$$
+$$B \to Bx = B\setminus{sl}$$
 
 Accordingly:-
 
-> ### $A_{2}$
+> ### $Ax$
 >
 > computer science longest common substring two more strings longest string substring all them there may be more than one longest common substring applications include data deduplication plagiarism detection
 >
-> — *[A_{2} (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
+> — *[Ax (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
 
-> ### $B_{2}$
+> ### $Bx$
 >
 > longest common subsequence lcs longest subsequence common all sequences set sequences often just two sequences it differs from longest common substring unlike substrings subsequences are not required occupy consecutive positions within original sequences
 >
-> — *[B_{2} (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
+> — *[Bx (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
 
 ---
 ---
@@ -90,15 +91,15 @@ The complexity of a common-substring problem is typically framed in terms of Big
 
 Specifically, given:-
 
-$$n = |A_{2}| = 28$$
+$$n = |Ax| = 28$$
 
 ...and...
 
-$$m = |B_{2}| = 33$$
+$$m = |Bx| = 33$$
 
 Subsequently, the area of the *"problem-space"* of *"example 1"* — *(within-which all common words and substrings thereof, might/must be found)* — is...
 
-$$n \times m = |A_{2}| * |B_{2}| = 28 \times 33 = 924$$
+$$n \times m = |Ax| * |Bx| = 28 \times 33 = 924$$
 
 ---
 ## solution overview
@@ -106,7 +107,7 @@ $$n \times m = |A_{2}| * |B_{2}| = 28 \times 33 = 924$$
 
 Before next steps, we ought to detail the solution — the *"common words and substrings" themselves*.
 
-Let $cws$ be the set of common-words-&-substrings for $A_{2}$ and $B_{2}$
+Let $cws$ be the set of common-words-&-substrings for $Ax$ and $Bx$
 
 $$cws = \lbrace "longest{ }common{ }substring", "longest{ }common", "longest", "common", "substring", "two", "all" \rbrace$$
 
@@ -119,19 +120,19 @@ $$cws = \lbrace "longest{ }common{ }substring", "longest{ }common", "longest", "
 
 ### visualising input-strings
 
-#### $A_{2}$
-> *[A_{2} (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
+#### $Ax$
+> *[Ax (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
 
 ![](images/example-1--a-empty.png)
 
-> Fig x: represents the input string $A_{2}$ of length $28$
+> Fig x: represents the input string $Ax$ of length $28$
 
-#### $B_{2}$
-> *[B_{2} (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
+#### $Bx$
+> *[Bx (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
 
 ![](images/example-1--b-empty.png)
 
-> Fig x: represents the input string $B_{2}$ of length $33$
+> Fig x: represents the input string $Bx$ of length $33$
 
 ---
 ### visualising problem-space
@@ -142,20 +143,20 @@ For two input-strings $a,b$ of lengths $n,m$, set to axes $x,y$, *respectively*;
 
 ![](images/example-1--empty.png)
 
-> Fig x: depicts a $28 * 33$ grid, which represents the higher-dimensional projection of $A_{2} \times B_{2}$ , or problem-space, within which the solution is to be found
+> Fig x: depicts a $28 * 33$ grid, which represents the higher-dimensional projection of $Ax \times Bx$ , or problem-space, within which the solution is to be found
 
-> $$n \times m = |A_{2}| * |B_{2}| = 28 \times 33 = 924$$
+> $$n \times m = |Ax| * |Bx| = 28 \times 33 = 924$$
 
 ---
 ### visualising the solution within problem-space
 
 ![](images/example-1--solution.png)
 
-> Fig x: depicts the solution to the common-substring problem for input-strings $A_{2}$ and $B_{2}$ within a $28 * 33$ grid; with common-words marked by orange dots/squares; and common-substrings *(of words)* represented by diagonal-lines
+> Fig x: depicts the solution to the common-substring problem for input-strings $Ax$ and $Bx$ within a $28 * 33$ grid; with common-words marked by orange dots/squares; and common-substrings *(of words)* represented by diagonal-lines
 
 Earlier, we noted that the longest common-substring is 3 words long.
 
-Now as we visualise the solution within problem-space, note that the longest common-substring appears twice in $A_{2}$, yet only once in $B_{2}$.
+Now as we visualise the solution within problem-space, note that the longest common-substring appears twice in $Ax$, yet only once in $Bx$.
 
 > *(so therefore twice along the $x$ axis, but only once on the $y$ axis — represented by the fact that the two respective diagonal-lines of length 3, occupy the same vertical space)*
 
@@ -189,19 +190,19 @@ Now that we can visualise *"positive-space"* within the two-dimensions of *"prob
 
 ![](images/example-1--solution-frame.png)
 
-> Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product; with A_{2} on top; and B_{2} down the left
+> Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product; with Ax on top; and Bx down the left
 
-#### $A_{2}$ (top)
+#### $Ax$ (top)
 
 ![](images/example-1--a.png)
 
-> Fig x : depicts the elements of input-string $A_{2}$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
+> Fig x : depicts the elements of input-string $Ax$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
 
-#### $B_{2}$ (left)
+#### $Bx$ (left)
 
 ![](images/example-1--b.png)
 
-> Fig x : depicts the elements of input-string $B_{2}$ which correspond with positive-space by orange dots/squares, (with negative-space uncoloured)
+> Fig x : depicts the elements of input-string $Bx$ which correspond with positive-space by orange dots/squares, (with negative-space uncoloured)
 
 Higher-dimensional spaces are inherently arbitrarily-plural lower-dimensional spaces, and the relationship between dimensions *(/reference-frames)* will form the basis for several generalised methods for *"finding things, in spaces"*.
 
