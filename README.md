@@ -30,14 +30,14 @@ This repository will contain the details of one example — *(example 1)* — of
 
 Consider two *"input strings"* $A$, and $B$:-
 
-> ### $A$:
+> ### A
 > *[data](/data/a.txt) | [meta](/data/a-meta.txt)*
 >
 > In computer science, a longest common substring of two or more strings is a longest string that is a substring of all of them. There may be more than one longest common substring. Applications include data deduplication and plagiarism detection.
 >
 > — [wikipedia: longest common substring](https://en.wikipedia.org/wiki/Longest_common_substring)
 
-> ### $B$:
+> ### B
 > *[data](/data/b.txt) | [meta](/data/b-meta.txt)*
 >
 > A longest common subsequence (LCS) is the longest subsequence common to all sequences in a set of sequences (often just two sequences). It differs from the longest common substring: unlike substrings, subsequences are not required to occupy consecutive positions within the original sequences.
@@ -67,13 +67,13 @@ $$B \to Bx = B\setminus{sl}$$
 
 Accordingly:-
 
-> ### $Ax$
+> ### Ax
 >
 > computer science longest common substring two more strings longest string substring all them there may be more than one longest common substring applications include data deduplication plagiarism detection
 >
 > — *[Ax (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
 
-> ### $Bx$
+> ### Bx
 >
 > longest common subsequence lcs longest subsequence common all sequences set sequences often just two sequences it differs from longest common substring unlike substrings subsequences are not required occupy consecutive positions within original sequences
 >
@@ -120,14 +120,14 @@ $$cws = \lbrace "longest{ }common{ }substring", "longest{ }common", "longest", "
 
 ### visualising input-strings
 
-#### $Ax$
+#### Ax
 > *[Ax (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
 
 ![](images/example-1--a-empty.png)
 
 > Fig x: represents the input string $Ax$ of length $28$
 
-#### $Bx$
+#### Bx
 > *[Bx (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
 
 ![](images/example-1--b-empty.png)
@@ -192,13 +192,13 @@ Now that we can visualise *"positive-space"* within the two-dimensions of *"prob
 
 > Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product; with Ax on top; and Bx down the left
 
-#### $Ax$ (top)
+#### Ax (top)
 
 ![](images/example-1--a.png)
 
 > Fig x : depicts the elements of input-string $Ax$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
 
-#### $Bx$ (left)
+#### Bx (left)
 
 ![](images/example-1--b.png)
 
