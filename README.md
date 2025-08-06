@@ -30,14 +30,14 @@ This repository will contain the details of one example — *(example 1)* — of
 
 Consider two *"input strings"* $A$, and $B$:-
 
-> ### A
+> ### $A$
 > *[data](/data/a.txt) | [meta](/data/a-meta.txt)*
 >
 > In computer science, a longest common substring of two or more strings is a longest string that is a substring of all of them. There may be more than one longest common substring. Applications include data deduplication and plagiarism detection.
 >
 > — [wikipedia: longest common substring](https://en.wikipedia.org/wiki/Longest_common_substring)
 
-> ### B
+> ### $B$
 > *[data](/data/b.txt) | [meta](/data/b-meta.txt)*
 >
 > A longest common subsequence (LCS) is the longest subsequence common to all sequences in a set of sequences (often just two sequences). It differs from the longest common substring: unlike substrings, subsequences are not required to occupy consecutive positions within the original sequences.
@@ -59,25 +59,25 @@ $$Sl = \lbrace a, in, is, of, or, the, to, that \rbrace$$
 
 Such that:-
 
-$$A \to Ax = A\setminus{sl}$$
+$$A \to Ai = A\setminus{sl}$$
 
 ...and...
 
-$$B \to Bx = B\setminus{sl}$$
+$$B \to Bi = B\setminus{sl}$$
 
 Accordingly:-
 
-> ### Ax
+> ### $Ai$
 >
 > computer science longest common substring two more strings longest string substring all them there may be more than one longest common substring applications include data deduplication plagiarism detection
 >
-> — *[Ax (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
+> — *[Ai (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
 
-> ### Bx
+> ### $Bi$
 >
 > longest common subsequence lcs longest subsequence common all sequences set sequences often just two sequences it differs from longest common substring unlike substrings subsequences are not required occupy consecutive positions within original sequences
 >
-> — *[Bx (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
+> — *[Bi (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
 
 ---
 ---
@@ -91,15 +91,15 @@ The complexity of a common-substring problem is typically framed in terms of Big
 
 Specifically, given:-
 
-$$n = |Ax| = 28$$
+$$n = |Ai| = 28$$
 
 ...and...
 
-$$m = |Bx| = 33$$
+$$m = |Bi| = 33$$
 
 Subsequently, the area of the *"problem-space"* of *"example 1"* — *(within-which all common words and substrings thereof, might/must be found)* — is...
 
-$$n \times m = |Ax| * |Bx| = 28 \times 33 = 924$$
+$$n \times m = |Ai| * |Bi| = 28 \times 33 = 924$$
 
 ---
 ## solution overview
@@ -107,7 +107,7 @@ $$n \times m = |Ax| * |Bx| = 28 \times 33 = 924$$
 
 Before next steps, we ought to detail the solution — the *"common words and substrings" themselves*.
 
-Let $cws$ be the set of common-words-&-substrings for $Ax$ and $Bx$
+Let $cws$ be the set of common-words-&-substrings for $Ai$ and $Bi$
 
 $$cws = \lbrace "longest{ }common{ }substring", "longest{ }common", "longest", "common", "substring", "two", "all" \rbrace$$
 
@@ -120,45 +120,45 @@ $$cws = \lbrace "longest{ }common{ }substring", "longest{ }common", "longest", "
 
 ### visualising input-strings
 
-#### Ax
-> *[Ax (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
+#### $Ai$
+> *[Ai (clean)](/data/a-clean.txt) | [A (original)](/data/a.txt)*
 
 ![](images/example-1--a-empty.png)
 
-> Fig x: represents the input string $Ax$ of length $28$
+> Fig x: represents the input string $Ai$ of length $28$
 
-#### Bx
-> *[Bx (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
+#### $Bi$
+> *[Bi (clean)](/data/b-clean.txt) | [B (original)](/data/B.txt)*
 
 ![](images/example-1--b-empty.png)
 
-> Fig x: represents the input string $Bx$ of length $33$
+> Fig x: represents the input string $Bi$ of length $33$
 
 ---
 ### visualising problem-space
 
-For two input-strings $a,b$ of lengths $n,m$, set to axes $x,y$, *respectively*; the area of the corresponding two-dimensional problem-space is equal to $n \times m$
+For two input-strings $a,b$ of lengths $n,m$, set to Aies $x,y$, *respectively*; the area of the corresponding two-dimensional problem-space is equal to $n \times m$
 
 > or $O(n \times m)$
 
 ![](images/example-1--empty.png)
 
-> Fig x: depicts a $28 * 33$ grid, which represents the higher-dimensional projection of $Ax \times Bx$ , or problem-space, within which the solution is to be found
+> Fig x: depicts a $28 * 33$ grid, which represents the higher-dimensional projection of $Ai \times Bi$ , or problem-space, within which the solution is to be found
 
-> $$n \times m = |Ax| * |Bx| = 28 \times 33 = 924$$
+> $$n \times m = |Ai| * |Bi| = 28 \times 33 = 924$$
 
 ---
 ### visualising the solution within problem-space
 
 ![](images/example-1--solution.png)
 
-> Fig x: depicts the solution to the common-substring problem for input-strings $Ax$ and $Bx$ within a $28 * 33$ grid; with common-words marked by orange dots/squares; and common-substrings *(of words)* represented by diagonal-lines
+> Fig x: depicts the solution to the common-substring problem for input-strings $Ai$ and $Bi$ within a $28 * 33$ grid; with common-words marked by orange dots/squares; and common-substrings *(of words)* represented by diagonal-lines
 
 Earlier, we noted that the longest common-substring is 3 words long.
 
-Now as we visualise the solution within problem-space, note that the longest common-substring appears twice in $Ax$, yet only once in $Bx$.
+Now as we visualise the solution within problem-space, note that the longest common-substring appears twice in $Ai$, yet only once in $Bi$.
 
-> *(so therefore twice along the $x$ axis, but only once on the $y$ axis — represented by the fact that the two respective diagonal-lines of length 3, occupy the same vertical space)*
+> *(so therefore twice along the $x$ Aiis, but only once on the $y$ Aiis — represented by the fact that the two respective diagonal-lines of length 3, occupy the same vertical space)*
 
 ---
 ### visualising problem-space *"polarity"*: positive-space, and negative-space
@@ -190,19 +190,19 @@ Now that we can visualise *"positive-space"* within the two-dimensions of *"prob
 
 ![](images/example-1--solution-frame.png)
 
-> Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product; with Ax on top; and Bx down the left
+> Fig x : depicts the correspondence between lower and higher dimensional representations of positive-space; where input-strings are lower-dimensions, and problem-space as the higher-dimensional product; with Ai on top; and Bi down the left
 
-#### Ax (top)
+#### $Ai$ (top)
 
 ![](images/example-1--a.png)
 
-> Fig x : depicts the elements of input-string $Ax$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
+> Fig x : depicts the elements of input-string $Ai$ which correspond with positive-space by orange dots/squares, (with negative-space uncolored)
 
-#### Bx (left)
+#### $Bi$ (left)
 
 ![](images/example-1--b.png)
 
-> Fig x : depicts the elements of input-string $Bx$ which correspond with positive-space by orange dots/squares, (with negative-space uncoloured)
+> Fig x : depicts the elements of input-string $Bi$ which correspond with positive-space by orange dots/squares, (with negative-space uncoloured)
 
 Higher-dimensional spaces are inherently arbitrarily-plural lower-dimensional spaces, and the relationship between dimensions *(/reference-frames)* will form the basis for several generalised methods for *"finding things, in spaces"*.
 
